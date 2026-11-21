@@ -1,0 +1,101 @@
+region,plan,monthly_bill,tv_bundle,tenure_months,support_calls_90d,outage_hours_90d,payment_method,auto_pay,paid_late_last_bill,age,customer_id,actual_churned,svm_score
+West,Fiber 20,4390.0,yes,34,4,50.2,card,no,yes,22.0,C01204,1,2.711187260932838
+Central,Fiber 100,6220.0,no,3,4,7.2,bank transfer,no,no,25.0,C03243,1,2.417543154943404
+Central,Fiber 100,6650.0,no,3,0,16.5,cash,no,yes,54.0,C03445,1,2.4026827735569087
+Central,Fiber 20,2940.0,no,10,2,19.1,cash,no,yes,19.0,C04086,1,2.3302964313728642
+Central,Fiber 20,3060.0,no,14,2,27.8,card,no,yes,39.0,C04885,1,2.2328171021654195
+West,Fiber 20,2830.0,no,6,4,1.0,bank transfer,no,yes,46.0,C02054,0,2.062791474875966
+North,Fiber 50,4450.0,no,9,6,3.4,card,no,no,40.0,C02038,0,2.039415566067869
+West,Fiber 20,3280.0,no,12,5,11.8,bank transfer,no,no,47.0,C04302,0,1.933130441565324
+North,Fiber 100,8140.0,yes,13,1,1.6,cash,no,yes,41.0,C00268,1,1.9107892248050895
+South,Fiber 50,5780.0,yes,2,2,5.6,card,no,yes,48.0,C02041,0,1.8865324616820045
+Central,Fiber 20,2840.0,no,2,1,24.7,bank transfer,no,no,61.0,C00912,1,1.8523858463256522
+North,Fiber 100,6670.0,no,2,2,2.6,bank transfer,no,no,28.0,C03454,1,1.8502064820476223
+South,Fiber 100,7680.0,yes,6,2,9.5,bank transfer,no,no,34.0,C00323,0,1.8310986105140472
+South,Fiber 20,4430.0,yes,14,0,41.8,cash,no,no,26.0,C04879,1,1.8124253347391859
+North,Fiber 50,4440.0,no,5,4,0.3,bank transfer,no,no,18.0,C03742,1,1.8110184787804977
+North,Fiber 50,4960.0,no,3,3,2.9,cash,no,no,32.0,C00018,0,1.810019336086369
+West,Fiber 20,3280.0,no,9,3,0.4,cash,no,yes,35.0,C03022,1,1.781128678846744
+Central,Fiber 50,4760.0,no,7,1,3.8,cash,no,yes,36.0,C01561,1,1.7608306916201482
+Central,Fiber 50,4410.0,no,12,0,17.6,cash,no,yes,48.0,C03732,0,1.745832497202179
+South,Fiber 20,2840.0,no,7,0,19.2,cash,no,yes,47.0,C04937,0,1.7385291594740764
+North,Fiber 100,6980.0,no,1,1,3.3,bank transfer,no,no,35.0,C02383,1,1.6939900844245326
+South,Fiber 50,4550.0,no,13,2,23.0,cash,no,no,45.0,C04195,1,1.6743975375770699
+North,Fiber 50,6050.0,yes,1,2,10.5,card,no,no,41.0,C03416,0,1.6738661549712806
+Central,Fiber 20,4310.0,yes,17,2,12.6,card,no,yes,46.0,C04732,0,1.657244851561356
+Central,Fiber 100,6350.0,no,3,2,1.1,bank transfer,yes,yes,32.0,C02495,1,1.6370949742231549
+North,Fiber 50,4550.0,no,2,2,25.8,bank transfer,yes,no,25.0,C04678,0,1.6298391805237005
+East,Fiber 50,4500.0,no,5,3,10.6,bank transfer,no,no,56.0,C02429,1,1.6067440961276338
+Central,Fiber 20,2900.0,no,1,2,9.0,bank transfer,no,no,57.0,C03599,0,1.6039294528206147
+West,Fiber 50,4220.0,no,16,3,20.1,bank transfer,no,no,21.0,C04025,1,1.5922891163348565
+North,Fiber 20,3370.0,no,25,0,25.5,cash,no,yes,28.0,C00091,0,1.56946975952848
+East,Fiber 50,4240.0,no,2,1,2.6,cash,no,yes,46.0,C02607,0,1.5328472722138509
+West,Fiber 50,4840.0,no,13,0,16.2,cash,no,yes,32.0,C02103,0,1.5225063615685177
+North,Fiber 20,4000.0,yes,1,1,10.1,cash,no,no,31.0,C00767,1,1.4974722280427
+East,Fiber 100,6300.0,no,28,2,28.6,bank transfer,no,no,30.0,C04623,0,1.49356743143993
+North,Fiber 20,3080.0,no,9,2,18.2,card,no,no,18.0,C02478,1,1.4800164169478913
+South,Fiber 50,4540.0,no,28,1,21.6,cash,no,yes,40.0,C03099,1,1.4552305185533454
+West,Fiber 100,6540.0,no,32,1,18.2,cash,no,yes,56.0,C03359,1,1.4418627940802384
+West,Fiber 20,4190.0,yes,9,2,15.3,cash,no,no,46.0,C01953,1,1.439470969166302
+Central,Fiber 20,3220.0,no,8,2,9.5,bank transfer,no,no,37.0,C04171,0,1.4386115457285262
+North,Fiber 50,4450.0,no,36,3,10.6,bank transfer,no,yes,55.0,C04352,1,1.3961199848246748
+North,Fiber 50,5410.0,yes,3,1,8.2,bank transfer,no,no,45.0,C01019,1,1.3949875987905775
+South,Fiber 100,6790.0,no,2,3,11.7,card,yes,no,36.0,C04037,0,1.3667453376315075
+West,Fiber 100,8020.0,yes,14,2,3.9,cash,no,no,42.0,C02343,1,1.3414437760383864
+North,Fiber 50,4790.0,no,16,1,0.5,cash,no,yes,32.0,C03334,0,1.3390012742021682
+South,Fiber 50,5820.0,yes,15,1,2.7,cash,no,yes,39.0,C03098,0,1.3351245299165226
+West,Fiber 20,2520.0,no,3,2,9.3,cash,no,no,35.0,C00566,1,1.3101436798842192
+Central,Fiber 20,3290.0,no,9,0,2.9,cash,no,yes,49.0,C01471,1,1.3017364810604404
+Central,Fiber 50,5520.0,yes,1,1,2.5,cash,no,no,41.0,C04785,0,1.3016796581602579
+West,Fiber 20,2890.0,no,9,1,3.7,cash,no,yes,59.0,C02799,1,1.2977078246480813
+Central,Fiber 20,2920.0,no,2,1,7.4,cash,no,no,51.0,C01085,1,1.287089788881313
+West,Fiber 20,3540.0,no,16,0,14.5,cash,no,yes,45.0,C03106,1,1.2843465639748102
+South,Fiber 50,5450.0,yes,9,3,7.7,card,no,no,58.0,C03960,0,1.2830583516934615
+North,Fiber 20,4290.0,yes,1,0,10.0,cash,no,no,40.0,C03638,1,1.272053810641494
+West,Fiber 20,3510.0,no,20,3,14.6,bank transfer,no,no,,C04848,0,1.2717838716596317
+North,Fiber 50,4730.0,no,19,1,2.1,cash,no,yes,46.0,C01936,0,1.2656863597016192
+East,Fiber 20,3210.0,no,7,2,10.4,cash,no,no,33.0,C01280,1,1.2595191514505522
+North,Fiber 50,4100.0,no,20,3,10.9,bank transfer,yes,yes,42.0,C01517,1,1.2533697557747479
+North,Fiber 50,5970.0,yes,29,2,3.0,bank transfer,no,yes,55.0,C00192,0,1.2385770493507193
+North,Fiber 50,5560.0,yes,11,2,2.5,cash,no,no,22.0,C03636,0,1.2349601255556606
+Central,Fiber 100,6340.0,no,12,2,3.9,card,no,no,46.0,C04123,0,1.2229430137987274
+North,Fiber 50,6030.0,yes,7,3,9.1,bank transfer,yes,no,,C01444,0,1.2183001324172844
+South,Fiber 20,3260.0,no,11,1,17.2,cash,no,no,53.0,C04793,1,1.2179997200514512
+East,Fiber 20,4570.0,yes,7,0,2.9,cash,no,yes,20.0,C03407,1,1.2072100264126613
+South,Fiber 20,3040.0,no,9,3,0.7,cash,no,no,34.0,C00477,0,1.2060875835066982
+North,Fiber 50,4620.0,no,7,1,5.4,cash,no,no,21.0,C02314,1,1.194770222913002
+North,Fiber 50,4260.0,no,10,3,3.1,card,no,no,49.0,C00985,1,1.178863941172744
+South,Fiber 50,4800.0,no,9,2,4.3,bank transfer,no,no,36.0,C04119,0,1.1770929211625871
+South,Fiber 100,6820.0,no,10,2,1.4,card,no,no,24.0,C02332,1,1.157090661430015
+West,Fiber 100,6180.0,no,8,1,4.9,bank transfer,no,no,47.0,C04280,1,1.1343147961505329
+Central,Fiber 100,6630.0,no,12,1,0.5,bank transfer,no,no,,C00657,0,1.1327824185692394
+South,Fiber 20,2930.0,no,18,4,1.2,cash,no,no,48.0,C01998,0,1.1293115783176058
+South,Fiber 100,7480.0,yes,5,0,3.3,cash,no,no,29.0,C04415,1,1.129248137900169
+North,Fiber 50,3810.0,no,7,1,7.5,cash,no,no,38.0,C02419,0,1.1273426795657162
+North,Fiber 20,3050.0,no,8,2,20.1,bank transfer,yes,no,25.0,C03163,0,1.12316011670451
+Central,Fiber 50,4190.0,no,24,2,18.3,bank transfer,yes,yes,43.0,C01867,1,1.116420219600692
+West,Fiber 50,4390.0,no,36,3,8.0,cash,no,yes,29.0,C00040,0,1.1151094246504565
+North,Fiber 20,4060.0,yes,13,2,4.4,bank transfer,no,no,31.0,C04214,0,1.1069896664242211
+Central,Fiber 100,7600.0,yes,19,0,2.6,card,no,yes,53.0,C03405,0,1.1048680301332778
+Central,Fiber 100,6780.0,no,36,4,8.0,card,no,no,,C03171,1,1.0997868438817937
+West,Fiber 50,5500.0,yes,2,1,3.8,cash,no,no,35.0,C04401,0,1.0946922683616283
+North,Fiber 20,2830.0,no,9,0,16.3,cash,no,no,46.0,C04658,1,1.0927344338193605
+North,Fiber 50,5720.0,yes,23,4,2.7,card,no,no,27.0,C04232,1,1.0866784433665924
+North,Fiber 20,3090.0,no,8,2,5.9,card,no,no,23.0,C02886,1,1.0771819225385828
+South,Fiber 20,4350.0,yes,15,3,0.7,cash,no,no,46.0,C02323,0,1.065920427379326
+East,Fiber 20,2760.0,no,7,1,4.0,,no,yes,50.0,C04691,0,1.050750022048959
+Central,Fiber 20,4180.0,yes,18,2,7.6,bank transfer,no,no,31.0,C03470,0,1.0496723229954723
+North,Fiber 50,4880.0,no,63,1,39.7,cash,no,yes,40.0,C02698,1,1.0466360153955914
+East,Fiber 50,4710.0,no,6,1,15.5,card,no,no,39.0,C00904,1,1.0389472246581448
+East,Fiber 50,5710.0,yes,6,1,6.7,cash,no,no,38.0,C01905,0,1.0284772211500623
+Central,Fiber 20,2780.0,no,44,4,3.4,cash,no,yes,40.0,C02037,1,1.0265660928352327
+West,Fiber 100,6830.0,no,22,0,1.9,cash,no,yes,41.0,C04202,0,1.0238417242338418
+West,Fiber 100,6700.0,no,2,2,11.8,card,yes,no,39.0,C01733,0,1.0193981454685312
+South,Fiber 20,2750.0,no,17,3,4.7,cash,no,no,42.0,C00033,1,1.0080002435394535
+West,Fiber 20,4230.0,yes,3,1,3.9,cash,no,no,37.0,C04108,0,1.006931697396209
+North,Fiber 100,6420.0,no,10,0,1.7,cash,no,no,30.0,C02903,1,0.9986998117705258
+East,Fiber 20,4020.0,yes,18,1,4.3,bank transfer,no,yes,42.0,C00611,0,0.9888242022572503
+Central,Fiber 20,2610.0,no,32,2,5.3,cash,no,yes,33.0,C02133,0,0.987295441774744
+South,Fiber 20,2780.0,no,12,2,5.8,cash,no,no,37.0,C03574,1,0.9770637834087391
+South,Fiber 50,4570.0,no,15,2,5.6,bank transfer,no,no,39.0,C01370,0,0.9691380464438072
+West,Fiber 20,4100.0,yes,16,1,17.3,bank transfer,no,no,,C04557,1,0.9678691975740216

@@ -1,0 +1,23 @@
+,0
+num__support_calls_90d,17.470693452852487
+cat__paid_late_last_bill_yes,16.749167434900244
+cat__payment_method_cash,13.535000908250542
+cat__region_Central,10.576440655572618
+cat__auto_pay_no,9.918803088814151
+cat__plan_Fiber 100,4.248098706456099
+cat__payment_method_bank transfer,2.361398267390028
+num__outage_hours_90d,1.8235270656513762
+cat__tv_bundle_yes,0.9386826375380437
+num__age,0.03626784849569731
+num__monthly_bill,0.0043961387855233625
+cat__region_North,-0.10758491909336865
+cat__region_South,-0.604021340254338
+cat__tv_bundle_no,-0.9386826375393333
+cat__plan_Fiber 50,-0.9999175190324392
+num__tenure_months,-1.9523847128058378
+cat__region_West,-2.2006394398450837
+cat__plan_Fiber 20,-3.248181187425014
+cat__region_East,-7.664194956383023
+cat__auto_pay_yes,-9.918803088814395
+cat__payment_method_card,-15.896399175642308
+cat__paid_late_last_bill_no,-16.74916743490399
