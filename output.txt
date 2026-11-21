@@ -1,0 +1,182 @@
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> python .\explore_data.py
+
+===== DATASET SHAPE =====
+(5000, 14)
+
+===== COLUMN NAMES =====
+['customer_id', 'region', 'plan', 'monthly_bill', 'tv_bundle', 'tenure_months', 'support_calls_90d', 'outage_hours_90d', 'payment_method', 'auto_pay', 'paid_late_last_bill', 'age', 'cancel_request_logged', 'churned']
+
+===== FIRST 5 ROWS =====
+  customer_id   region      plan  ...   age  cancel_request_logged  churned
+0      C00001     West  Fiber 20  ...  19.0                      0        0
+1      C00002    South  Fiber 50  ...   NaN                      0        0
+2      C00003  Central  Fiber 50  ...  54.0                      0        0
+3      C00004     West  Fiber 20  ...  42.0                      0        0
+4      C00005    North  Fiber 20  ...  18.0                      0        0
+
+[5 rows x 14 columns]
+
+===== DATASET INFO =====
+<class 'pandas.DataFrame'>
+RangeIndex: 5000 entries, 0 to 4999
+Data columns (total 14 columns):
+ #   Column                 Non-Null Count  Dtype  
+---  ------                 --------------  -----  
+ 0   customer_id            5000 non-null   str    
+ 1   region                 5000 non-null   str    
+ 2   plan                   5000 non-null   str    
+ 3   monthly_bill           5000 non-null   float64
+ 4   tv_bundle              5000 non-null   str    
+ 5   tenure_months          5000 non-null   int64  
+ 6   support_calls_90d      5000 non-null   int64  
+ 7   outage_hours_90d       5000 non-null   float64
+ 8   payment_method         4851 non-null   str    
+ 9   auto_pay               5000 non-null   str    
+ 10  paid_late_last_bill    5000 non-null   str    
+ 11  age                    4589 non-null   float64
+ 12  cancel_request_logged  5000 non-null   int64  
+ 13  churned                5000 non-null   int64  
+dtypes: float64(3), int64(4), str(7)
+memory usage: 547.0 KB
+
+===== MISSING VALUES =====
+customer_id                0
+region                     0
+plan                       0
+monthly_bill               0
+tv_bundle                  0
+tenure_months              0
+support_calls_90d          0
+outage_hours_90d           0
+payment_method           149
+auto_pay                   0
+paid_late_last_bill        0
+age                      411
+cancel_request_logged      0
+churned                    0
+dtype: int64
+
+===== CHURN DISTRIBUTION =====
+churned
+0    4104
+1     896
+Name: count, dtype: int64
+
+===== CHURN PERCENTAGES =====
+churned
+0    82.08
+1    17.92
+Name: proportion, dtype: float64
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> 
+
+
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> python .\src\lab7_save.py
+Dataset shape: (5000, 14)
+
+Features:
+['region', 'plan', 'monthly_bill', 'tv_bundle', 'tenure_months', 'support_calls_90d', 'outage_hours_90d', 'payment_method', 'auto_pay', 'paid_late_last_bill', 'age']
+
+===== DATA SPLIT =====
+Training rows: 3000
+Validation rows: 1000
+Testing rows: 1000
+
+Numeric columns:
+['monthly_bill', 'tenure_months', 'support_calls_90d', 'outage_hours_90d', 'age']
+
+Categorical columns:
+['region', 'plan', 'tv_bundle', 'payment_method', 'auto_pay', 'paid_late_last_bill']
+Logistic Regression: PR-AUC = 0.3826, Time = 0.03 seconds
+SVM linear (scaled): PR-AUC = 0.3824, Time = 0.40 seconds
+SVM linear (no scaling): PR-AUC = 0.3886, Time = 16.28 seconds
+
+===== VALIDATION MODEL COMPARISON =====
+                  model   pr_auc   seconds
+SVM linear (no scaling) 0.388593 16.282212
+    Logistic Regression 0.382615  0.034572
+    SVM linear (scaled) 0.382352  0.397993
+
+===== FINAL TEST EVALUATION =====
+Test PR-AUC: 0.3918
+
+===== TEST TOP 100 EVALUATION =====
+Customers selected: 100
+Actual churners in top 100: 52
+Expected churners in random 100: 17.9
+Churn rate in top 100: 52.0 %
+
+Selected model: SVM linear (no scaling)
+Final model retrained on training + validation data.
+
+===== TOP CHURN FACTORS =====
+num__support_calls_90d               17.470693
+cat__paid_late_last_bill_yes         16.749167
+cat__payment_method_cash             13.535001
+cat__region_Central                  10.576441
+cat__auto_pay_no                      9.918803
+cat__plan_Fiber 100                   4.248099
+cat__payment_method_bank transfer     2.361398
+num__outage_hours_90d                 1.823527
+cat__tv_bundle_yes                    0.938683
+num__age                              0.036268
+dtype: float64
+
+===== TOP RETENTION FACTORS =====
+cat__region_South              -0.604021
+cat__tv_bundle_no              -0.938683
+cat__plan_Fiber 50             -0.999918
+num__tenure_months             -1.952385
+cat__region_West               -2.200639
+cat__plan_Fiber 20             -3.248181
+cat__region_East               -7.664195
+cat__auto_pay_yes              -9.918803
+cat__payment_method_card      -15.896399
+cat__paid_late_last_bill_no   -16.749167
+dtype: float64
+
+Model saved successfully!
+Selected model: SVM linear (no scaling)
+File: models/linear_svm_pipeline.joblib
+File: models/linear_svm_pipeline.joblib
+
+Generated reports:
+- reports/model_comparison.csv
+- reports/test_top_100_call_list.csv
+- reports/svm_feature_weights.csv
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> 
+
+
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> python .\check_data.py
+Dataset shape: (8, 12)
+
+Column names:
+['customer_id', 'region', 'plan', 'monthly_bill', 'tv_bundle', 'tenure_months', 'support_calls_90d', 'outage_hours_90d', 'payment_method', 'auto_pay', 'paid_late_last_bill', 'age']
+
+First 5 rows:
+  customer_id   region      plan  ... auto_pay paid_late_last_bill   age
+0      C90001     East  Fiber 20  ...       no                 yes  21.0
+1      C90002    South  Fiber 20  ...       no                  no  64.0
+2      C90003    South  Fiber 20  ...       no                  no  25.0
+3      C90004     East  Fiber 50  ...       no                  no  49.0
+4      C90005  Central  Fiber 20  ...      yes                  no  46.0
+
+[5 rows x 12 columns]
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> 
+
+
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> python .\src\predict.py  New customers loaded: 8
+
+===== CHURN PREDICTIONS =====
+customer_id predicted_churn  svm_score  risk_rank
+     C90001           Churn  75.837194          1
+     C90002           Churn   1.809215          2
+     C90007        No Churn  -6.519752          3
+     C90004        No Churn  -9.372349          4
+     C90006        No Churn  -9.531372          5
+     C90005        No Churn -19.767597          6
+     C90003        No Churn -50.342670          7
+     C90008        No Churn -59.039956          8
+
+Predictions saved successfully!
+File: reports/predictions.csv
+(venv) PS C:\Users\User\Downloads\citynet-churn-lab-pack\citynet-churn> 
